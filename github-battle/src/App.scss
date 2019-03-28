@@ -1,0 +1,41 @@
+.button {
+    color: #363636;
+    background: #0a0a0a;
+    border: none;
+    font-size: 16px;
+    border-radius: 3px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    padding: 7px 0;
+    &:hover:enabled {
+        color: #fff;
+        text-decoration: none;
+    }
+    &:active {
+        transform: translateY(1px);
+    }
+}
+
+
+a {
+    text-decoration: none;
+    color: #d0021b;
+}
+.nav {
+    display: flex;
+    li {
+        margin-right: 15px;
+    }
+} 
+.active {
+    font-weight: bold;
+}
+
+
+// home container 
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
