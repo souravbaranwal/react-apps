@@ -56,7 +56,7 @@ class Button extends Component {
     let { label } = this.props;
 
     return (
-      <button style={this.handleStyle()} onClick={this.props.onClickHandler}>
+      <button style={this.handleStyle()} onClick={this.props.clickme}>
         {label || "please add button name"}
       </button>
     );
